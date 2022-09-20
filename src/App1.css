@@ -1,12 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+}
 main{
     font-size:2rem;
+    width: 50vw;
+    background-color: antiquewhite;
 }
-
 h1{
     border: 2px dotted red;
     width: 50%;
     font-size: 3rem;
-    padding: 0.3em;
+    padding: 0.5em;
 }p{
     font-size:2rem;
+    width: 40ch;
 }
