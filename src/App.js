@@ -4,6 +4,7 @@ import "./App.css";
 import { Routes, Route,Navigate } from 'react-router-dom';
 import SinglePostPage from "./features/posts/SinglePostPage";
 import Layout from "./components/Layout";
+// import TodoList from "./features/todos/TodoList";
 import EditPostForm from "./features/posts/EditPostForm";
 import UsersList from "./features/users/UsersList";
 import UserPage from "./features/users/UserPage";
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
+      {/* <Route path="/" element={<TodoList />}> */}
 
         <Route index element={<PostsList />} />
 
